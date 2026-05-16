@@ -1,0 +1,54 @@
+# ============================================================
+# Freya AI — Requirements
+# Optimized for: AMD Ryzen 5 4600H + GTX 1650 + 8GB RAM
+# Python 3.10 / 3.11 recommended
+# ============================================================
+
+# === Core AI ===
+ollama>=0.3.0
+
+# === Speech-to-Text ===
+faster-whisper>=1.0.0
+SpeechRecognition>=3.10.0
+pyaudio>=0.2.13
+
+# === Text-to-Speech ===
+edge-tts>=6.1.9
+pygame>=2.5.0
+sounddevice>=0.4.6
+pyttsx3>=2.90
+
+# === Wake Word ===
+openwakeword>=0.6.0
+
+# === Voice Activity Detection ===
+webrtcvad-wheels>=2.0.10
+
+# === Desktop Automation ===
+pyautogui>=0.9.54
+pillow>=10.0.0
+pynput>=1.7.6
+
+# === Screen Capture & Vision ===
+mss>=9.0.1
+easyocr>=1.7.1
+opencv-python>=4.8.0
+
+# === Browser Automation ===
+playwright>=1.40.0
+
+# === System Monitoring ===
+psutil>=5.9.0
+
+# === GUI ===
+customtkinter>=5.2.0
+pystray>=0.19.5
+
+# === Memory & Storage ===
+# SQLite3 is built into Python stdlib
+
+# === Utilities ===
+httpx>=0.25.0
+numpy>=1.24.0
+python-dotenv>=1.0.0
+pywin32>=306

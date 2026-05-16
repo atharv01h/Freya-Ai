@@ -12,9 +12,6 @@
   <p align="center">
     <strong>A next-generation, voice-first desktop AI assistant with deep system automation, real WhatsApp integration, and a stunning animated UI.</strong>
   </p>
-  <p align="center">
-    <i>Created by Atharv Hatwar</i>
-  </p>
 </div>
 
 <p align="center">
@@ -51,8 +48,8 @@ Freya is not just a chatbot. She is a fully autonomous desktop entity that can s
 
 **1. Clone the repository**
 ```bash
-git clone https://github.com/yourusername/Freya-AI.git
-cd Freya-AI
+git clone https://github.com/atharv01h/Freya-Ai
+cd Freya-Ai
 ```
 
 **2. Install dependencies**
@@ -61,7 +58,7 @@ pip install -r requirements.txt
 python -m playwright install chromium
 ```
 
-**3. Configure your API Keys (Cloud Mode)**
+**3. Configure your API Keys**
 Open `config.json` and add your **NVIDIA NIM** API key under `"nvidia_nim"`.
 
 **4. Run Freya!**
@@ -69,21 +66,6 @@ Open `config.json` and add your **NVIDIA NIM** API key under `"nvidia_nim"`.
 python freya.py
 ```
 *Note: On her first WhatsApp interaction, she will open a browser window and ask you to scan the WhatsApp Web QR code. She will securely remember this login forever!*
-
-### 🔌 Running 100% Offline (Local Models)
-
-Freya can run completely offline without internet using Ollama!
-
-1. Download and install [Ollama](https://ollama.com/).
-2. Pull a local model like Qwen or Llama 3:
-   ```bash
-   ollama run qwen2.5:3b
-   ```
-3. Open `config.json` and change the provider:
-   ```json
-   "llm_provider": "ollama"
-   ```
-4. Freya is now running fully locally on your GPU/CPU!
 
 ---
 
@@ -114,12 +96,12 @@ If she breaks, just restart the Python script!
 ## :heart: Creator
 
 <div align="center">
-  <b>Created by Atharv Hatwar</b><br>
+  <b>Designed and Engineered by Atharv Hatwar</b><br>
   <i>Pushing the boundaries of personalized AI companions.</i>
 </div>
 
 <br>
 
 <div align="center">
-  If you love Freya, please consider giving the repo a ⭐ to help her go viral!
+  If you love Freya, please consider giving the repo a ⭐ !
 </div>

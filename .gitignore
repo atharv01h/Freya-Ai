@@ -1,0 +1,23 @@
+# Virtual Environments
+venv/
+env/
+.env
+
+# Pycache
+__pycache__/
+*.pyc
+
+# Local Data / DB / Profiles
+wa_profile/
+whatsapp_profile/
+memory/freya_memory.db
+logs/freya.log
+config.json
+
+# IDE
+.vscode/
+.idea/
+
+# OS Files
+Thumbs.db
+.DS_Store
